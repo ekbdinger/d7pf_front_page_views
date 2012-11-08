@@ -1,0 +1,10 @@
+name = d7pf_front_page_views
+description = Views that I might use on the front page
+core = 7.x
+package = frontpage
+dependencies[] = ctools
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = fp_popular_nodes
+features[views_view][] = fp_recently_updated
