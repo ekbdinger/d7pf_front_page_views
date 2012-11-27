@@ -2,6 +2,7 @@ name = d7pf_front_page_views
 description = Views that I might use on the front page
 core = 7.x
 package = frontpage
+php = 5.2.4
 dependencies[] = ctools
 dependencies[] = views
 features[ctools][] = views:views_default:3.0
